@@ -1,0 +1,23 @@
+﻿@model CarsByRuss.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+
+<div class="well ">
+    <h1 class="text-center">User Details</h1>
+    <ul class="list-group">
+        <li class="list-group-item "><strong>First Name:</strong> @Model.FirstName</li>
+        <li class="list-group-item"><strong>Last Name:</strong> @Model.LastName</li>
+        <li class="list-group-item"><strong>Address: </strong> @Model.Address</li>
+        <li class="list-group-item"><strong>City:</strong> @Model.City</li>
+        <li class="list-group-item"><strong>Postal Code:</strong> @Model.PostalCode</li>
+        <li class="list-group-item"><strong>Email:</strong> @Model.Email</li>
+        <li class="list-group-item"><strong>Phone:</strong> @Model.PhoneNumber</li>
+    </ul>
+</div>
+<div>
+    <a class="btn btn-warning btn-sm glyphicon glyphicon-arrow-left" asp-action="Index"></a>
+    <a class="btn btn-sm btn-primary pull-right" asp-route-id="@Model.Id" asp-action="Edit">Edit</a>
+</div>

@@ -1,0 +1,16 @@
+﻿@model CarsByRuss.Models.ServiceType
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+
+<div class="form-border">
+    <h1 class="text-center">Service Type</h1>
+    <h3 class="text-center">@Model.Name</h3>   
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-primary glyphicon glyphicon-arrow-left pull-left"></a>
+    <a asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-sm btn-warning pull-right">Edit</a>
+</div>

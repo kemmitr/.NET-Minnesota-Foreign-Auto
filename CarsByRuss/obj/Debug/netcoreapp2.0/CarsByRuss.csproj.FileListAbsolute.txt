@@ -1,0 +1,12 @@
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\bin\Debug\netcoreapp2.0\CarsByRuss.deps.json
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\bin\Debug\netcoreapp2.0\CarsByRuss.runtimeconfig.json
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\bin\Debug\netcoreapp2.0\CarsByRuss.runtimeconfig.dev.json
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\bin\Debug\netcoreapp2.0\CarsByRuss.dll
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\bin\Debug\netcoreapp2.0\CarsByRuss.pdb
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.csprojResolveAssemblyReference.cache
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.csproj.CoreCompileInputs.cache
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.AssemblyInfoInputs.cache
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.AssemblyInfo.cs
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.dll
+C:\Users\Russell\source\repos\CarsByRuss\CarsByRuss\obj\Debug\netcoreapp2.0\CarsByRuss.pdb

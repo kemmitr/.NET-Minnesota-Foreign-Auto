@@ -1,0 +1,5 @@
+﻿@model CarsByRuss.Models.IndividualButtonPartial
+<a type="button" class="btn btn-sm @Model.ButtonType" href="@Url.Action(Model.Action)@Model.ActionParameters">
+    <span class="sr-only">@Model.Text</span>
+    <span class="glyphicon glyphicon-@Model.Glyph"></span>
+</a>

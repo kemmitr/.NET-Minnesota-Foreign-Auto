@@ -1,0 +1,62 @@
+﻿@using CarsByRuss.Utility
+@model CarsByRuss.ViewModels.CarAndServicesViewModel
+
+<div>
+    <table class="table table-condensed table-hover">
+        <tr>
+            <th>
+                Miles
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+               Details
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Service Type
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.PastServicesObj)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m=> item.Miles)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=> item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=> item.Details)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=> item.DateAdded)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=> item.ServiceType.Name)
+                </td>
+                <td>
+                 
+                       
+                            @if (item.DateAdded.Date == DateTime.Now.Date && User.IsInRole(SD.AdminEndUser))
+                             {
+                                 @Html.Partial("_IndividualButtonPartial", new IndividualButtonPartial
+                                 {
+                                     Action = "Delete",
+                                     ButtonType = "btn-danger",
+                                     Glyph = "trash",
+                                     Text = "Delete Button",
+                                     ServiceId = item.Id
+                                 })
+                             }
+                        
+                    
+                </td>
+            </tr>
+        }
+    </table>
+</div>
