@@ -1,6 +1,6 @@
 
    <div style="text-align: center; color: red">
-   <h1>Minnesota Foreign Auto</h1>
+ 
    </div>
 
 
